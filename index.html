@@ -1,32 +1,53 @@
 <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset ="utf-8">
+  </head>
+  <body>
+    <!-- START OF WIDGET TEXT ELEMENT -->
+    <a class="discord-button-link" href="https://discord.com/invite/Q53n8CRzjT" target="_blank">
+      <div class="caravana-discord-wrapper">
+      <img class="caravana-discord-icon" src="https://github.com/caravana-do-absurdo/join-discord-channel-sticky-button/blob/main/discord_logo.png?raw=true" />
+      </div>
+    </a>
+    <!-- END OF WIDGET TEXT ELEMENT -->
+  </body>
 
-<body>
-  <a  href="https://discord.com/invite/Q53n8CRzjT" 
-      target="_blank" 
-      style=" position: fixed; 
-              bottom: 50px; 
-              left: 0px; 
-              background-color: #5865F2; 
-              width: 200px; 
-              height: 50px; 
-              line-height: 50px;
-              padding: 5px; 
-              z-index: 999; 
-              color: white; 
-              display: block;
-              border-top-right-radius: 10px; 
-              border-bottom-right-radius: 10px;
-              text-decoration: none;
-        ">
-    Entre no nosso Canal
-    <img  src="./discord_logo.png" 
-          style=" position: absolute; 
-                  right: 10px; 
-                  top: 8px; 
-                  width: auto; 
-                  height: 44px; 
-                  display: inline;" />
-  </a>
-</body>
+  <style>
+    /* START OF Custom CSS ELEMENT */
+    a.discord-button-link {
+      overflow: hidden;
+    }
+
+    div.caravana-discord-wrapper {
+      z-index: 999; 
+      position: fixed; 
+      bottom: 40px; 
+      left: -10px; 
+      background-color: #5865F2; 
+      width: 70px; 
+      height: 60px; 
+      border-top-right-radius: 10px; 
+      border-bottom-right-radius: 10px;
+      box-shadow: 1px 2px 4px rgba(0,0,0,0.5);
+      transition: 200ms ease-in-out; 
+    }
+
+    div.caravana-discord-wrapper:hover {
+      transform: scale(1.3);
+      box-shadow: 3px 6px 8px rgba(0,0,0,0.2);
+      background-color: #6976F4; 
+    }
+
+    img.caravana-discord-icon {
+      position: absolute; 
+      right: 10px; 
+      top: 8px; 
+      bottom: 8px; 
+      width: auto; 
+      height: 44px; 
+    }
+    /* END OF Custom CSS ELEMENT */
+  </style>
 
 </html>
