@@ -2,6 +2,7 @@
 This repository contains the main code and resources necessary to implement a "Join our Discord channel" sticky button. It was first implemented by Caravana do Absurdo's team in order to use it on their website:
 https://caravanadoabsurdo.com.br/
 
+![Element screenshot](https://github.com/caravana-do-absurdo/join-discord-channel-sticky-button/blob/main/res/img/discord-sticky-button-screenshot.png?raw=true)
 
 ## How to insert this element into your Wordpress website:
 1 - Open the index.html file inside this repo
